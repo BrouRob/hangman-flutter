@@ -452,19 +452,6 @@ class _ForcaJogoWidgetState extends State<ForcaJogoWidget> {
                         teclas(index, 2),
                         incrementeImagem(index),
                         mudarImagem(erros),
-                        print(palavraSorteada),
-                        print(palavraMascara),
-                        print('Erros: $erros'),
-                        print('Acertos: $acertos'),
-                        print('Perdeu: $perdeu'),
-                        print('Ganhou: $ganhou'),
-                        print('Tentativas: $tentativas'),
-                        print('Acertos T1: $acertost1'),
-                        print('Erros T1: $errost1'),
-                        print('Acertos T2: $acertost2'),
-                        print('Erros T2: $errost2'),
-                        print('Acertos T3: $acertost3'),
-                        print('Erros T3: $errost3')
                       }, //onPressed: () => {incrementeImagem(index), Colors.black}, \\ k < 3 ? () => {k < 5} : null
                       child: Text(
                         _alfabeto[index++], // flutter operador ternário
